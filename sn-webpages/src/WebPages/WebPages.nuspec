@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SenseNet.WebPages</id>
+    <version>7.2.0</version>
+    <title>sensenet WebPages</title>
+    <authors>kavics,aniko,lajos,tusmester</authors>
+    <owners>Sense/Net</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-webpages/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-webpages</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>sensenet WebPages is the UI layer for sensenet built using ASP.NET WebForms pages, webparts and controls.</description>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet ecm ecms web page</tags>
+    <dependencies>
+      <dependency id="SenseNet.Services" version="7.2.0" />
+      <dependency id="SenseNet.Tools" version="3.0.0" />
+      <dependency id="Microsoft.AspNet.SignalR.Client" version="2.2.2" />
+      <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.2" />
+      <dependency id="Microsoft.Owin" version="2.1.0" />
+      <dependency id="Microsoft.Owin.Security" version="2.1.0" />
+      <dependency id="Owin" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\AjaxMin.*" target="lib\net461" />
+    <file src="bin\Release\System.Web.Ajax.*" target="lib\net461" />
+    <file src="bin\Release\SenseNet.WebPages.*" target="lib\net461" />
+    <file src="bin\Release\Microsoft.Web.Preview.*" target="lib\net461" />
+  </files>
+</package>
