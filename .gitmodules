@@ -1,0 +1,3 @@
+[submodule "sn-webpages"]
+	path = sn-webpages
+	url = https://github.com/SenseNet/sn-webpages.git
